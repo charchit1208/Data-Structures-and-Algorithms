@@ -7,7 +7,7 @@ def list_nth_last(linked_list, n):
     linked_list_as_list.append(current_node)
     current_node = current_node.get_next_node()
   print(len(linked_list_as_list))
-  return linked_list_as_list[-n-1]
+  return linked_list_as_list[-n]
 
 ll = LinkedList(5)
 for i in range(10):
