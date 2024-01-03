@@ -46,7 +46,7 @@ class LinkedList:
         else:
           current_node = next_node
 
-# Test your code by uncommenting the statements below - did your list print to the terminal?
+# Test code
 #ll = LinkedList(5)
 #ll.insert_beginning(70)
 #ll.insert_beginning(5675)
