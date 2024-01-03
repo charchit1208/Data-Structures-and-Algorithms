@@ -14,7 +14,7 @@ class Node:
 
 class LinkedList:
   def __init__(self, value=None):
-    self.head_node = Node(value)
+    self.head_node = None#Node(value)
   
   def get_head_node(self):
     return self.head_node
